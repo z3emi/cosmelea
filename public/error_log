@@ -1,0 +1,592 @@
+[22-Jun-2025 10:46:07 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/uruktel1/public_html/cosmelea.uruktele.com/routes/web.php on line 40
+[22-Jun-2025 10:46:12 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/uruktel1/public_html/cosmelea.uruktele.com/routes/web.php on line 40
+[22-Jun-2025 10:46:15 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/uruktel1/public_html/cosmelea.uruktele.com/routes/web.php on line 40
+[22-Jun-2025 10:48:57 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/uruktel1/public_html/cosmelea.uruktele.com/routes/web.php on line 45
+[22-Jun-2025 10:49:05 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/uruktel1/public_html/cosmelea.uruktele.com/routes/web.php on line 45
+[22-Jun-2025 10:49:05 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Route as Route because the name is already in use in /home/uruktel1/public_html/cosmelea.uruktele.com/routes/web.php on line 45
+[23-Jun-2025 07:13:14 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:13:37 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:16:31 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:18:42 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:19:24 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:19:26 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:19:28 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:19:32 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:21:52 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:22:11 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:23:35 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:23:37 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:23:40 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:25:06 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:25:53 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:26:01 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:27:05 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:27:06 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:28:21 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:29:08 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:30:56 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 07:31:19 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[23-Jun-2025 09:04:06 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/UserController.php on line 3
+[23-Jun-2025 10:31:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Order.php on line 2
+[23-Jun-2025 10:31:58 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Order.php on line 2
+[23-Jun-2025 10:33:01 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Order.php on line 2
+[24-Jun-2025 07:14:14 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Expense.php on line 3
+[24-Jun-2025 07:14:48 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Expense.php on line 3
+[24-Jun-2025 07:17:24 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Expense.php on line 3
+[24-Jun-2025 07:17:37 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Expense.php on line 3
+[24-Jun-2025 07:34:58 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/InventoryController.php on line 3
+[24-Jun-2025 07:35:17 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/InventoryController.php on line 3
+[24-Jun-2025 08:04:59 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Providers/AppServiceProvider.php on line 3
+[24-Jun-2025 08:05:02 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Providers/AppServiceProvider.php on line 3
+[24-Jun-2025 08:05:16 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Providers/AppServiceProvider.php on line 3
+[24-Jun-2025 08:05:17 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Providers/AppServiceProvider.php on line 3
+[24-Jun-2025 08:05:18 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Providers/AppServiceProvider.php on line 3
+[24-Jun-2025 11:15:49 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Category.php on line 3
+[24-Jun-2025 11:15:52 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Models/Category.php on line 3
+[24-Jun-2025 11:45:19 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/CategoryController.php on line 3
+[24-Jun-2025 11:45:31 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/CategoryController.php on line 3
+[24-Jun-2025 11:49:10 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/CategoryController.php on line 3
+[24-Jun-2025 11:54:32 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 11:55:32 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 11:55:33 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 11:58:25 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 12:07:19 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 12:07:20 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:05:38 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:05:40 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:07:28 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:07:50 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:08:51 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:08:52 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:08:54 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:09:53 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:11:20 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:11:27 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:11:27 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:13:26 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 15:27:37 UTC] PHP Warning:  require(/home/uruktel1/public_html/cosmelea.uruktele.com/public/../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/uruktel1/public_html/cosmelea.uruktele.com/public/index.php on line 13
+[24-Jun-2025 15:27:37 UTC] PHP Warning:  require(/home/uruktel1/public_html/cosmelea.uruktele.com/public/../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/uruktel1/public_html/cosmelea.uruktele.com/public/index.php on line 13
+[24-Jun-2025 15:27:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/uruktel1/public_html/cosmelea.uruktele.com/public/../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php84/root/usr/share/pear') in /home/uruktel1/public_html/cosmelea.uruktele.com/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/public/index.php on line 13
+[24-Jun-2025 16:02:49 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 16:05:25 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 16:09:49 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 16:10:08 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[24-Jun-2025 16:10:08 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:387) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(Illuminate\Contracts\Container\BindingResolutionException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322
+[25-Jun-2025 08:04:54 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/OrderController.php on line 3
+[25-Jun-2025 08:08:24 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/OrderController.php on line 3
+[25-Jun-2025 08:09:36 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/OrderController.php on line 3
+[25-Jun-2025 08:14:08 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/OrderController.php on line 3
+[25-Jun-2025 08:14:14 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/OrderController.php on line 3
+[25-Jun-2025 08:15:22 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/OrderController.php on line 3
+[25-Jun-2025 08:19:39 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/OrderController.php on line 3
+[25-Jun-2025 08:23:05 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/OrderController.php on line 3
+[25-Jun-2025 09:07:46 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/uruktel1/public_html/cosmelea.uruktele.com/app/Http/Controllers/Admin/ProductController.php:1) in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(2, 'Cannot modify h...', '/home/uruktel1/...', 322)
+#2 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(ErrorException))
+#6 /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(ErrorException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():255}(Object(ErrorException))
+#8 {main}
+  thrown in /home/uruktel1/public_html/cosmelea.uruktele.com/vendor/symfony/http-foundation/Response.php on line 322

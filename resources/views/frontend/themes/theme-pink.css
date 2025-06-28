@@ -1,0 +1,14 @@
+:root {
+  --primaryColor: #cd8985;
+  --secondaryColor: #dcaca9;
+  --accentColor: #be6661;
+  --lightBackground: #f9f5f1;
+  --baseWhite: #ffffff;
+  --softBeige: #eadbcd;
+  --bodyBackgroundColor: var(--lightBackground);
+  --bodyColor: var(--accentColor);
+  --colorPrimary: var(--primaryColor);
+  --colorSecondary: var(--secondaryColor);
+  --buttonPrimaryBg: var(--primaryColor);
+  --buttonPrimaryColor: var(--baseWhite);
+}
